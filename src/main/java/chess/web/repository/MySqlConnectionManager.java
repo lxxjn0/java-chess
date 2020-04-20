@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class MySqlConnectionManager implements ConnectionManager {
 
 	private static final String server = "127.0.0.1:13306"; // MySQL 서버 주소
-	private static final String database = "level_1_chess_db"; // MySQL DATABASE 이름
+	private static final String database = "woowa_level_01_chess"; // MySQL DATABASE 이름
 	private static final String option = "?useSSL=false&serverTimezone=UTC";
 	private static final String userName = "root"; //  MySQL 서버 아이디
 	private static final String password = "root"; // MySQL 서버 비밀번호
