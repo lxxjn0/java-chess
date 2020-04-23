@@ -1,4 +1,4 @@
-package wooteco.chess.repository;
+package wooteco.chess.database;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

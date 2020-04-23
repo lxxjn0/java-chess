@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+import wooteco.chess.database.JdbcTemplate;
 import wooteco.chess.entity.ChessHistoryEntity;
-import wooteco.chess.repository.JdbcTemplate;
 
 public class MySqlChessHistoryDao implements ChessHistoryDao {
 

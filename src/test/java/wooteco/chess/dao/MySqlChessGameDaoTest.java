@@ -12,9 +12,9 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.NullSource;
 
+import wooteco.chess.database.JdbcTemplate;
+import wooteco.chess.database.MySqlConnectionManager;
 import wooteco.chess.entity.ChessGameEntity;
-import wooteco.chess.repository.JdbcTemplate;
-import wooteco.chess.repository.MySqlConnectionManager;
 
 class MySqlChessGameDaoTest {
 

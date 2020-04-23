@@ -4,8 +4,8 @@ import java.sql.ResultSet;
 import java.sql.Timestamp;
 import java.util.Objects;
 
+import wooteco.chess.database.JdbcTemplate;
 import wooteco.chess.entity.ChessGameEntity;
-import wooteco.chess.repository.JdbcTemplate;
 
 public class MySqlChessGameDao implements ChessGameDao {
 

@@ -7,9 +7,9 @@ import wooteco.chess.dao.ChessGameDao;
 import wooteco.chess.dao.ChessHistoryDao;
 import wooteco.chess.dao.MySqlChessGameDao;
 import wooteco.chess.dao.MySqlChessHistoryDao;
-import wooteco.chess.repository.ConnectionManager;
-import wooteco.chess.repository.JdbcTemplate;
-import wooteco.chess.repository.MySqlConnectionManager;
+import wooteco.chess.database.ConnectionManager;
+import wooteco.chess.database.JdbcTemplate;
+import wooteco.chess.database.MySqlConnectionManager;
 import wooteco.chess.service.ChessService;
 
 public class WebUIChessApplication {
